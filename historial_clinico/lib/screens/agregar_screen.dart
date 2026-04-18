@@ -11,6 +11,7 @@ class AgregarScreen extends StatefulWidget {
   @override
   State<AgregarScreen> createState() => _AgregarScreenState();
 }
+
 class _AgregarScreenState extends State<AgregarScreen> {
   final _fechaCtrl = TextEditingController();
   final _diagnosticoCtrl = TextEditingController();
