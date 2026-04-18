@@ -3,15 +3,8 @@ import 'package:http/http.dart' as http;
 import '../models/historial.dart';
 
 class ApiService {
-  // Si usas emulador Android en Android Studio:
   static const String _baseUrl = 'http://10.0.2.2:3000/api';
 
-  // Si luego pruebas en navegador Chrome:
-  // static const String _baseUrl = 'http://localhost:3000/api';
-
-  // Si pruebas en celular físico:
-  // cambia localhost o 10.0.2.2 por la IP local de tu computador
-  // ejemplo: http://192.168.1.10:3000/api
 
   static Map<String, String> get _headers => {
         'Content-Type': 'application/json',

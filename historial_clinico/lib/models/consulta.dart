@@ -3,7 +3,7 @@ class Consulta {
   final String diagnostico;
   final String medicamento;
   final String medico;
-
+  
   Consulta({
     required this.fecha,
     required this.diagnostico,

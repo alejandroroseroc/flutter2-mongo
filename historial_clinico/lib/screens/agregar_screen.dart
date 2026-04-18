@@ -8,11 +8,9 @@ class AgregarScreen extends StatefulWidget {
     super.key,
     required this.pacienteId,
   });
-
   @override
   State<AgregarScreen> createState() => _AgregarScreenState();
 }
-
 class _AgregarScreenState extends State<AgregarScreen> {
   final _fechaCtrl = TextEditingController();
   final _diagnosticoCtrl = TextEditingController();
